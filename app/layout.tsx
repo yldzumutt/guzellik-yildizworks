@@ -5,14 +5,14 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Yunus Çetinoğlu Estetik & Güzellik | Batman",
+  title: "Yıldız Works Estetik & Güzellik | Batman",
   description: "Batman merkezde profesyonel cilt bakımı, lazer epilasyon, bölgesel inceltme ve SPA hizmetleri. Yenilenmek ve kendinize zaman ayırmak için hemen randevu alın.",
-  keywords: "Batman güzellik merkezi, lazer epilasyon batman, cilt bakımı, yunus çetinoğlu, estetik, hydrafacial batman, bölgesel inceltme",
+  keywords: "Batman güzellik merkezi, lazer epilasyon batman, cilt bakımı, Yıldız Works, estetik, hydrafacial batman, bölgesel inceltme",
   openGraph: {
-    title: "Yunus Çetinoğlu Estetik & Güzellik",
+    title: "Yıldız Works Estetik & Güzellik",
     description: "Profesyonel dokunuşlarla cildinizin ihtiyaç duyduğu bakımı keşfedin.",
-    url: "https://yunuscetinoglu.com", // İleride gerçek domaini buraya yazarsın
-    siteName: "Yunus Çetinoğlu Estetik",
+    url: "https://yildizworks.com", // İleride gerçek domaini buraya yazarsın
+    siteName: "Yıldız Works Estetik",
     locale: "tr_TR",
     type: "website",
   },
@@ -30,7 +30,7 @@ export default function RootLayout({
         
         {/* Sabit WhatsApp Butonu */}
         <a
-          href="https://wa.me/905078720272" 
+          href="#https://wa.me/" 
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-2xl hover:scale-110 hover:bg-[#20b858] transition-all duration-300 group"

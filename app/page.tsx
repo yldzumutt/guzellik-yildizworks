@@ -14,7 +14,7 @@ export default function Home() {
       {/* Üst Bilgi ve Menü (Header) */}
       <header className="fixed top-0 w-full z-50 py-4 px-4 md:px-8 flex justify-between items-center bg-white/95 backdrop-blur-md border-b border-[#E8E2DA] shadow-sm transition-all">
         <div className="font-serif text-xl md:text-2xl font-extrabold tracking-widest text-[#3D2C23] z-50">
-          YUNUS ÇETİNOĞLU
+          YILDIZ WORKS
           <span className="block text-[9px] md:text-[11px] font-medium tracking-[0.3em] text-[#8C7662] uppercase mt-1">Estetik & Güzellik</span>
         </div>
         
@@ -28,7 +28,7 @@ export default function Home() {
         <div className="flex items-center gap-3 z-50">
           {/* Instagram Butonu (Masaüstü) */}
           <a 
-            href="https://www.instagram.com/yunuscetinogluguzellik/" 
+            href="https://www.instagram.com/yildizworkscom/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hidden md:flex items-center gap-1.5 text-[#E1306C] hover:text-[#C13584] text-xs font-bold transition-all uppercase tracking-wider"
@@ -72,7 +72,7 @@ export default function Home() {
             <div className="w-12 h-[1px] bg-[#E8E2DA] mx-auto my-2"></div>
             
             <a 
-              href="https://www.instagram.com/yunuscetinogluguzellik/" 
+              href="https://www.instagram.com/yildizworkscom/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-[#E1306C] flex items-center justify-center gap-2 text-sm"
@@ -98,7 +98,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[#2b1f18]/50"></div>
         <div className="relative z-10 max-w-4xl mt-20">
           <h1 className="text-5xl md:text-7xl font-serif font-light text-white mb-8 drop-shadow-lg leading-tight">
-            Yenilenmiş Hissetmenin <br/> Tam Zamanı
+            Kendinize Ayırdığınız <br/> En Güzel Zaman
           </h1>
           <p className="text-lg md:text-xl text-[#FDFBF7] font-light mb-12 max-w-2xl mx-auto drop-shadow-md opacity-90">
             Profesyonel dokunuşlarla cildinizin ihtiyaç duyduğu bakımı keşfedin. Estetik, zarafet ve doğallığın buluşma noktası.
@@ -121,7 +121,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div className="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 border border-[#E8E2DA]/50">
               <div className="relative h-80 overflow-hidden">
-                <img src="/oda1.webp" alt="Cilt Bakımı" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700" />
+                <img src="/ciltbakim.webp" alt="Cilt Bakımı" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700" />
               </div>
               <div className="p-8 text-center">
                 <h3 className="text-2xl font-serif text-[#3D2C23] mb-3">Profesyonel Cilt Bakımı</h3>
@@ -132,7 +132,7 @@ export default function Home() {
 
             <div className="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 border border-[#E8E2DA]/50">
               <div className="relative h-80 overflow-hidden">
-                <img src="/bakim.webp" alt="Lazer Epilasyon" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700" />
+                <img src="/lazer.webp" alt="Lazer Epilasyon" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700" />
               </div>
               <div className="p-8 text-center">
                 <h3 className="text-2xl font-serif text-[#3D2C23] mb-3">Lazer Epilasyon</h3>
@@ -143,7 +143,7 @@ export default function Home() {
 
             <div className="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 border border-[#E8E2DA]/50">
               <div className="relative h-80 overflow-hidden">
-                <img src="/bekleme.webp" alt="El & Ayak Bakımı" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700" />
+                <img src="/spa.webp" alt="El & Ayak Bakımı" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700" />
               </div>
               <div className="p-8 text-center">
                 <h3 className="text-2xl font-serif text-[#3D2C23] mb-3">SPA / El & Ayak Bakımı</h3>
@@ -194,17 +194,24 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <svg className="w-5 h-5 text-[#8C7662] mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                    <span className="text-[#7A6A5E] text-sm leading-relaxed">Tilmerç Mah. 3876 Sk. No:1/4<br/>The Best Apt, Batman Merkez</span>
+                    <span className="text-[#7A6A5E] text-sm leading-relaxed">Nişantaşı/İSTANBUL</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <svg className="w-5 h-5 text-[#8C7662] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                    <a href="tel:+905078720272" className="text-[#7A6A5E] text-sm hover:text-[#3D2C23] transition-colors">0507 872 02 72</a>
+                    <a href="tel:+" className="text-[#7A6A5E] text-sm hover:text-[#3D2C23] transition-colors">"İLETİŞİM NUMARANIZ"</a>
                   </div>
                 </div>
               </div>
               <div className="flex flex-col h-72 lg:h-full min-h-[300px] rounded-2xl overflow-hidden shadow-sm border border-[#E8E2DA] relative group">
-                <iframe src="https://maps.google.com/maps?q=Yunus%20%C3%87etino%C4%9Flu%20G%C3%BCzellik%20Merkezi,%20Batman&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="absolute inset-0"></iframe>
-                <a href="https://www.google.com/maps/dir//Yunus+%C3%87etino%C4%9Flu+G%C3%BCzellik+Merkezi,+The+Best+Apt,+Tilmerc,+3876+Sokak+No:1%2F4,+72000+Batman+Merkez%2FBatman/@37.9034679,41.1372361,3118m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x400b47fabd27591b:0xde2948f2e90c7d85!2m2!1d41.1575384!2d37.9092143?entry=ttu&g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-[#3D2C23] hover:bg-[#8C7662] text-white px-6 py-3 rounded-full text-xs font-bold transition-all shadow-lg uppercase tracking-wider whitespace-nowrap z-10">Yol Tarifi Al</a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.6109968411033!2d28.98823121541484!3d41.033580079298715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7650656bd63%3A0x8ca058b28c20b6c3!2zTmnFn2FudGHFn8LEsSwgxZ5pxZ9saS_EsHN0YW5idWw!5e0!3m2!1str!2str" 
+  width="100%" 
+  height="100%" 
+  style={{ border: 0, minHeight: "300px" }} 
+  allowFullScreen 
+  loading="lazy" 
+  referrerPolicy="no-referrer-when-downgrade" 
+  className="rounded-lg shadow-sm w-full h-full"></iframe>
+                <a href="https://www.google.com/maps/search/Taksim,+İstanbul">Yol Tarifi Al</a>
               </div>
             </div>
           </div>
@@ -215,7 +222,7 @@ export default function Home() {
       <section id="hakkimizda" className="py-28 bg-white px-4">
         <div className="max-w-4xl mx-auto text-center">
           <span className="text-[#8C7662] text-sm font-bold tracking-widest uppercase mb-4 block">Biz Kimiz?</span>
-          <h2 className="text-3xl md:text-5xl font-serif text-[#3D2C23] mb-8">Yunus Çetinoğlu Estetik</h2>
+          <h2 className="text-3xl md:text-5xl font-serif text-[#3D2C23] mb-8">Yıldız Works Estetik</h2>
           <div className="w-20 h-[2px] bg-[#E8E2DA] mx-auto mb-10"></div>
           <p className="text-lg md:text-xl text-[#7A6A5E] leading-relaxed font-light mb-16">
             Güzelliğinizi ve sağlığınızı ön planda tutarak, alanında uzman profesyonel ekibimiz ve son teknoloji cihazlarımızla size en üst düzey hizmeti sunmayı amaçlıyoruz. Kendinizi özel hissedeceğiniz bu modern mimaride, doğal güzelliğinizi ortaya çıkarmak ve günün stresinden arınmanızı sağlamak için buradayız.
@@ -240,7 +247,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
           
           <div className="font-serif text-lg font-bold tracking-wider text-center md:text-left">
-            YUNUS ÇETİNOĞLU
+            YILDIZ WORKS
             <span className="block text-[9px] font-light tracking-[0.3em] text-[#D0C4B7] uppercase mt-0.5">Estetik & Güzellik</span>
           </div>
 
@@ -248,14 +255,14 @@ export default function Home() {
             <span>&copy; {new Date().getFullYear()} Tüm hakları saklıdır.</span>
             <span className="flex items-center gap-1">
               <svg className="w-3 h-3 text-[#8C7662]" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
-              powered by <a href="https://www.instagram.com/yildiztechstudio/" target="_blank" rel="noopener noreferrer" className="font-bold text-[#FDFBF7] hover:text-[#8C7662] transition-colors">Yıldız Web Studio</a>
+              powered by <a href="https://www.instagram.com/yildizworkscom/" target="_blank" rel="noopener noreferrer" className="font-bold text-[#FDFBF7] hover:text-[#8C7662] transition-colors">Yıldız Works</a>
             </span>
           </div>
 
           <div className="flex items-center gap-3">
             <span className="text-[#D0C4B7] text-xs font-light tracking-widest uppercase mr-2">Takip Edin</span>
             <a 
-              href="https://www.instagram.com/yunuscetinogluguzellik/" 
+              href="https://www.instagram.com/yildizworkscom/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="bg-[#4A3B32] hover:bg-[#8C7662] p-2.5 rounded-full transition-colors flex items-center justify-center group"
